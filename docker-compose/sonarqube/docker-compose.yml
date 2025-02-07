@@ -2,7 +2,7 @@ version: "3"
 
 services:
   sonarqube:
-    image: sonarqube:10.7.0-community
+    image: sonarqube:25.1.0.102122-community
     hostname: sonarqube
     container_name: local-sonarqube
     depends_on:
